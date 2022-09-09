@@ -1,10 +1,8 @@
 version: "3"
 services:
   dev-php:
-    build: .
+    image: "php:${PHP}-apache"
     ports: 
     - "${LOCAL_PORT}:80"
     volumes:
-      - ./www/:/var/www/
-    environment:
-      - php_version="${PHP}-apache"
+      - ./www/:/var/www/html/
