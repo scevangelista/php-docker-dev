@@ -1,9 +1,8 @@
 # Ambiente de Desenvolvimento PHP com Docker
 
-Container Docker Apache e PHP para desenvolvimento de sistemas ou debug 
-de funções. 
+Container Docker Apache e PHP para desenvolvimento de sistemas ou debug de funções. 
 
-
+___
 ## Variáveis de Ambiente
 
 Para rodar esse projeto, você vai precisar configurar as seguintes variáveis de ambiente no seu .env
@@ -17,7 +16,7 @@ Para rodar esse projeto, você vai precisar configurar as seguintes variáveis d
 `LOCAL_PORT`  
 *Porta para acesso local do apache*
 
-
+___
 ## Iniciando o ambiente
 
 Para fazer o deploy desse projeto você necessita ter instalado o Docker e o Docker Compose.
@@ -27,3 +26,9 @@ Para fazer o deploy desse projeto você necessita ter instalado o Docker e o Doc
 ```
 
 Seus arquivos PHP devem ser criados na pasta **www/html** do projeto, conforme o exemplo.  
+
+___
+## Acessando:
+
+Para acessar o serviço http do container, abra o navegador e acesse: http://127.0.0.1:8000.
+Obs. a porta 8000 deve ser alterada conforme o que foi informado no arquivo `.env`
