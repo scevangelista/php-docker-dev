@@ -31,4 +31,5 @@ ___
 ## Acessando:
 
 Para acessar o serviço http do container, abra o navegador e acesse: http://127.0.0.1:8000.
+  
 Obs. a porta 8000 deve ser alterada conforme o que foi informado no arquivo `.env`
